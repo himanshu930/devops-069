@@ -12,7 +12,7 @@ pipeline {
         // Stage 2: Build
         stage('Build') {
             steps {
-                sh 'GitJavaFile.java' // Replace with your actual Java file name
+                sh 'javac GitJavaFile.java' // Replace with your actual Java file name
             }
         }
 
